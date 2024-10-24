@@ -1,0 +1,91 @@
+/* General styling for the product container */
+.product {
+  max-width: 1200px; /* Max width for larger screens */
+  margin: 20px auto; /* Centering the product container */
+  padding: 20px; /* Adding some padding */
+  background-color: #f8f8f8; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  display: flex; /* Using flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Centering elements horizontally */
+  margin-bottom: 8rem;
+  padding-bottom: 4rem;
+}
+
+.product-cont-1 {
+  display: flex;
+  width: 90%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-cont-2 {
+  display: flex;
+  width: 90%;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Styling for the product title */
+.product-title {
+  font-size: 3rem; /* Larger font size for the title */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Dark text color */
+}
+
+/* Styling for the product brand */
+.product-brand {
+  font-size: 1.5rem; /* Medium font size for brand */
+  color: #555; /* Grey color for brand */
+  margin-left: 4px;
+  margin-bottom: 10px; /* Margin below brand */
+}
+
+/* Styling for the product image */
+.product-image {
+  max-width: 40%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-bottom: 20px; /* Margin below image */
+}
+
+/* Styling for the product price */
+.product-price {
+  font-size: 2rem; /* Slightly larger font for price */
+  color: #f48524; /* Orange color for price */
+  font-weight: 700;
+}
+
+/* Styling for the product description */
+.product-description {
+  font-size: 1rem; /* Standard font size for description */
+  color: #666; /* Light grey color for description text */
+  text-align: center; /* Center the text */
+  line-height: 1.5; /* Increase line height for readability */
+  margin-top: 10px; /* Margin above description */
+}
+
+/* Optional: Adding a button for add to cart */
+.add-to-cart {
+  padding: 10px 32px; /* Padding for the button */
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+  font-weight: 600;
+}
+
+/* Change background color on hover */
+.add-to-cart:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.product-button-cart {
+  width: 200px;
+  height: 38px;
+}
